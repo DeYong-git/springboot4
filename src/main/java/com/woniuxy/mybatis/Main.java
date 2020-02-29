@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 public class Main {
 	public static void main(String[] args) {
+		System.out.println("222");
 		SpringApplication.run(Main.class, args);
 	}
 
